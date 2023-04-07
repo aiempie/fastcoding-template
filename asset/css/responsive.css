@@ -1,0 +1,245 @@
+/* PC */
+@media (min-width: 1024px) {
+    .header-main .nav-mobile {
+        display: none !important;
+    }
+}
+
+
+
+/* Mobile - Tablet */
+@media (max-width: 1023px) {
+    .w-banner-home {
+        padding: 9rem 0 6rem;
+    }
+
+    .header-main .nav {
+        display: none !important;
+    }
+
+    .header-main .nav-mobile {
+        display: flex !important;
+    }
+
+    .header-main .logo.img-wrap {
+        padding-top: 11%;
+        width: 8rem;
+    }
+
+    .menu {
+        display: inline-block;
+        cursor: pointer;
+    }
+
+    .menu .menu-bar1,
+    .menu .menu-bar3 {
+        width: 40px;
+        height: 2px;
+        background-color: white;
+        transition: 0.4s;
+        margin: 1rem 0;
+    }
+
+    .menu .menu-bar2 {
+
+        width: 25px;
+        height: 2px;
+        background-color: white;
+    }
+
+    .menu.active .menu-bar1 {
+        transform: rotate(-45deg) translate(-0.5em, 0.6em);
+        margin: 1.3rem 0;
+    }
+
+    .menu.active .menu-bar2 {
+        display: none;
+    }
+
+    .menu.active .menu-bar3 {
+        margin: 1.3rem 0;
+        transform: rotate(45deg) translate(-0.46em, -0.6em);
+    }
+
+    .nav-mobile {
+        display: inline-block;
+    }
+
+    .nav-mobile .icon-mobile {
+        position: relative;
+    }
+
+    .nav-mobile .menu-ngang {
+        position: absolute;
+        right: 0;
+        top: -2.2rem;
+    }
+
+    .nav-mobile .icon-mobile .menu-items.title {
+        margin-bottom: .5rem;
+        font-size: 1.5rem;
+        color: white;
+        font-weight: 600;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.397);
+    }
+
+    .nav-mobile .list-menus {
+        position: fixed;
+        right: 100%;
+        top: 0;
+        bottom: 0;
+        background: black;
+        left: -10rem;
+        padding: 1rem;
+        z-index: 99999;
+        transition: all .3s ease-in;
+    }
+
+    .nav-mobile .list-menus.active {
+        right: 40%;
+        left: 0;
+    }
+
+    .header-main .list-menus .menu-items:last-child {
+        padding: 0.5rem 2rem;
+    }
+}
+
+
+/* Tablet */
+@media (min-width:740px) and (max-width: 1023px) {
+    .w-effects-tab {
+        padding: 6rem 0;
+    }
+
+    .w-banner-home .form-try-your-free {
+        width: 100%;
+        margin-top: 4rem;
+    }
+
+    .w-effects-tab .img-right.img-wrap {
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .w-effects-tab .tabs .tab-content {
+        margin-left: 3rem;
+    }
+
+    .w-effects-tab .tabs .tab-content .btn-download {
+        margin-top: 1rem;
+    }
+
+    .w-sub-list .content {
+        padding-left: 0;
+    }
+
+
+    .w-great-reason {
+        padding: 3rem 0;
+    }
+
+    .w-great-reason .heading {
+        margin-bottom: 3rem;
+    }
+
+    .w-sub-list,
+    .w-standard-picture,
+    .w-contact-us,
+    .w-stylish-axure-design {
+        padding: 3rem 0;
+    }
+}
+
+/* Mobile */
+@media (max-width:739px) {
+    .w-banner-home {
+        padding: 8rem 0 4rem;
+    }
+
+    .w-effects-tab .tabs {
+        display: block !important;
+    }
+
+    .w-effects-tab .tabs .nav-pills {
+        justify-content: center;
+        flex-direction: unset;
+    }
+
+    .w-effects-tab {
+        padding: 3rem 0;
+    }
+
+    .w-effects-tab .tabs .nav-pills .nav-link {
+        width: auto;
+        height: auto;
+        padding: 1rem 2rem;
+    }
+
+    #v-pills-tabContent {
+        margin: 2rem 0;
+        text-align: center;
+    }
+
+    .w-effects-tab .tabs .tab-content .btn-download {
+        margin-top: 1rem;
+    }
+
+    .w-contact-us,
+    .w-stylish-axure-design,
+    .w-great-reason,
+    .w-standard-picture,
+    .w-sub-list {
+        padding: 3rem 0;
+    }
+
+    .w-sub-list .row {
+        display: flex;
+        flex-direction: column;
+        flex-direction: column-reverse;
+    }
+
+    .w-sub-list .content {
+        padding: 0;
+    }
+
+    .w-sub-list .img-content-left {
+        margin-top: 1rem;
+    }
+
+    .w-great-reason .heading .title {
+        font-size: 28px;
+    }
+
+    .w-great-reason .heading {
+        margin-bottom: 3rem;
+    }
+
+    .w-great-reason .items .icon {
+        width: 50px;
+        height: 50px;
+    }
+
+    .w-great-reason .items {
+        margin-bottom: 3rem;
+    }
+
+    h3 {
+        font-size: 28px !important;
+    }
+
+    .w-contact-us .form-send-message .form-row textarea {
+        padding: 0;
+        margin-top: 3rem;
+    }
+
+    .foeter-home .list-social-network .item svg {
+        width: 20px;
+        height: 20px;
+    }
+
+    .w-banner-home .title .title-logo.img-wrap {
+        padding-top: 18.1%;
+        width: 11rem;
+    }
+}
